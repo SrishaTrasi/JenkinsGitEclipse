@@ -18,7 +18,7 @@ public class MyFirstJen {
 		driver.manage().window().maximize();
 	  String actualTitle = driver.getTitle();
 	  Assert.assertEquals(expectedTitle, actualTitle);
-	  System.out.println("login page verified by its title");
+	  System.out.println("login page verified by its title...");
 		/*if(actualTitle.equals(expectedTitle)) {
 			System.out.println("login page verified by its title");
 		}
